@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="form" name="form">
+<label for="text"> ADI </label>
+<Br>
+<input type="text" name="name" id="name">
+<br>
+<label for="tex2">SOYADI</label>
+<br>
+<input type="text" name="surname" id="surname">
+<Br></Br>
+<input type="button" value="Gönder" onclick="yaz()">
+  </form>
+
+  <script>
+    function yaz () {
+
+      var namex = document.getElementById("name").value;
+      var surname = document.getElementById("surname").value
+      console.log("adı:" + name);
+      console.log("soyadı:" + surname);
+    }
+  </script>
+
+</body>
+</html>
